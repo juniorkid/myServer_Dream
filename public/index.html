@@ -1,10 +1,10 @@
-<html>
+<html ng-app="myApp"> 
 <head>
 	<script type="text/javascript" src="lib/angular/angular.js"></script>
-	 <script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<title>Hello</title>
 </head>
-<body>
-	<h1>Hello World</h1>
+<body ng-controller="mainCtrl">
+	<h1>Hello {{name}}</h1>
 </body>
 </html>
